@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<!--read info on defer, do nothing with scrpts before the page is fully loaded -->
+<body>
+    
+    <input type="text" name="firstName" id="firstNameInput" /><br />
+    <button onclick="clickHandler()">Click me!</button><br />
+
+    <button id="clickMe">Click me also!</button>
+
+    <p id="target-p"></p>
+
+    <p>
+        Checkbox: <input type="checkbox" id="myCheckbox" /> <span id="checkboxState"> </span>
+    </p>
+
+    <p>
+        Checkbox2: <input type="checkbox" id="myCheckbox2" />
+    </p>
+
+    <div>
+        <select id="vehicleMakes">
+            <option>--Make Selection--</option>
+            <option value="10">Jeep</option>
+            <option value="11">Land Rover</option>
+            <option value="12">Toyota</option>
+        </select>
+
+        <p id="selectedMake"> </p>
+    </div>
+
+    <div>
+        <select id="vehicleModels">
+            <option>--Make Selection--</option>
+            <option value="5">Rav4</option>
+            <option value="6">Wrangler</option>
+            <option value="7">Dart</option>
+        </select>
+
+        <p id="selectedModel"> </p>
+    </div>
+</body>
+</html>
